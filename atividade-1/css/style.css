@@ -1,0 +1,83 @@
+/* h1{
+    color: rgb(255, 208, 0);
+    background-color: rgb(85, 75, 75);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    color: rgb(224, 120, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#id-titulo{
+    color: blue;
+}
+
+.descricao{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    color: white;
+}
+.desenvolvido{
+    padding: 10px 20px 10px 20px;
+    font-size: x-small;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+.img-fundo{
+    background-image: url("../imagem/faisca.gif");
+    height: 300px;
+    background-repeat: repeat;
+    background-size: 180px;
+    
+    border: 1px;
+    padding: 1px;
+}
+
+.ingredientes{
+    list-style-position: inside;
+    padding: 10px 20px 15px 30px;
+    margin: 5px;
+    text-align: left;
+    color: white;
+    text-align: center;
+}
+
+.modo-de-preparo{
+    list-style-position: inside;
+    padding: 10px 20px 15px 30px;
+    margin: 5px;
+    text-align: left;
+    color: white;
+    text-align: center;
+}
+
+.informacoes{
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    font-size: small;
+    color: white;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    background-position: center;
+}
