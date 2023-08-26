@@ -9,12 +9,27 @@
 
 .navigator{
     color: rgb(0, 0, 0);
-    margin: 5px;
-    padding: 5px;
-    font-size: medium;
-    text-align: center;
+    background-color: rgb(41, 38, 38, 0.5);
+    padding: 10px 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-weight: 600;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.navigator ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.navigator ul li a{
+    text-decoration: none;
+    color: blue;
+}
 
 .titulo{
     color: rgb(255, 174, 0);
@@ -23,30 +38,41 @@
     font-weight: bold;
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.primeiro-filme{
+#filme1{
+    background-color: rgba(41, 38, 38, 0.5);
     color: rgb(255, 255, 255);
     font-weight:600;
     text-align: center;
     padding: 20px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
-.segundo-filme{
+#filme2{
+    background-color: rgba(41, 38, 38, 0.5);
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
     padding: 20px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
-.terceiro-filme{
+#filme3{
+    background-color: rgba(41, 38, 38, 0.5);
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
     padding: 20px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .informacoes{
@@ -68,6 +94,7 @@
 
 .imagem-fundo{
     background-image: url("../imagem/faisca.gif");
+    /* background-color: black; */
     height: 350px;
     background-repeat: repeat;
     background-size: 350px;
